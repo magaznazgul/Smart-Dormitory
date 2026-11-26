@@ -1,9 +1,10 @@
 package com.smartdormitory;
 
-public class Main {
+import com.smartdormitory.ui.ConsoleUI;
 
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Smart Dormitory System");
-        System.out.println("Жатақхана қызметтерін басқару жүйесі іске қосылды!");
+        ConsoleUI app = new ConsoleUI();
+        app.start();
     }
 }
